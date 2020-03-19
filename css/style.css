@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  background: url(../img/header/header.png) center no-repeat;
+  background-size: cover;
+  height: 1218px;
+  opacity: 0.94;
+}
+
+.header_text {
+  display: inline-block;
+  font-family: 'MyriadPro';
+  font-size: 20px;
+  line-height: 31px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #fbfafa;
+  margin: 877px 0px 0px 30px;
+}
+
+.header_text::before {
+  content: '';
+  display: none;
+  width: 42px;
+  height: 1px;
+  position: absolute;
+  top: 848px;
+  background-color: #ffffff;
+}
+
+.line {
+  width: 105px;
+  height: 156px;
+  margin-top: 80%;
+}
+
+.block {
+  position: relative;
+  margin-top: -114px;
+  z-index: -1;
+}
+
+.block1 {
+  position: absolute;
+  z-index: 2;
+}
+
+.block_text {
+  max-width: 433px;
+}
+
+.content1 {
+  height: 100%;
+  width: 100%;
+}
+
+.text-first {
+  max-width: 544px;
+  margin-left: 10%;
+  padding-top: 10%;
+  font-family: "Futura-Bk";
+  font-size: 21px;
+  line-height: 33px;
+  font-weight: 550;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.text-second {
+  margin-top: -17%;
+}
+
+.text-third {
+  margin-top: 5%;
+}
+
+.block_text {
+  font-family: 'DalaMoa';
+  font-size: 21px;
+  line-height: 33px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.rblock_title {
+  font-family: 'DalaFloda';
+  font-size: 21px;
+  line-height: 33px;
+  font-weight: 550;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.content2 {
+  height: 100%;
+  width: 100%;
+  padding-top: 43%;
+}
+
+.content3 {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding-right: 18.2%;
+  margin-top: -5%;
+  z-index: -1;
+}
+
+.text-fourth {
+  padding-top: 15%;
+  margin-left: -45%;
+}
+
+.vidcont {
+  padding-top: 274px;
+  background: url(../img/vid/vidcontent.png) center no-repeat;
+  background-size: cover;
+  height: 773px;
+  text-align: center;
+}
+
+.vidcont_icon {
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 55px;
+}
+
+.vidcont_play {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.slider {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.slider_title {
+  font-family: 'DalaFloda';
+  font-size: 49px;
+  overflow-y: none;
+  line-height: 58px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #000000;
+  margin-bottom: 50px;
+}
+
+.slider_text {
+  font-family: 'Futura-Bk';
+  font-size: 21px;
+  line-height: 33px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #807f7b;
+  margin-bottom: 60px;
+}
+
+.slider_button {
+  padding: 16px 16px;
+  outline: none;
+  width: 351px;
+  height: 62px;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 1px solid black;
+  margin-top: 60px;
+  font-family: 'Futura-Demi';
+  font-size: 14.9px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #000000;
+}
+
+.slider_block {
+  text-align: center;
+}
+
+.ring_img {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ring_img1 {
+  margin-bottom: 5px;
+  padding-left: 27px;
+}
+
+.ring_img2 {
+  margin-bottom: 9px;
+  padding-right: 10px;
+}
+
+.ring_img3 {
+  margin-bottom: 22px;
+  padding-left: 25px;
+}
+
+.ring_img4 {
+  margin-bottom: 17px;
+  padding-right: 10px;
+}
+
+.ring_title {
+  font-family: 'Futura';
+  font-size: 19.3px;
+  line-height: 56px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.shopnow {
+  font-family: 'Futura-Demi';
+  font-size: 14.9px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #807f7b;
+}
+
+.after_img {
+  display: inline-block;
+  margin: 10px auto auto 10px;
+  margin-left: auto;
+}
+
+.slick-active {
+  outline: none;
+}

@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "MyriadPro";
+  src: url("../fonts/Myriad-Pro_31655.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+  @font-face {
+  font-family: "Futura-Bk";
+  src: url("../fonts/Futura-Bk.otf") format("otf");
+  font-weight: normal;
+  font-style: normal; 
+ }  
+@font-face {
+  font-family: "DalaFloda";
+  src: url("../fonts/DalaFloda-bold.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Futura";
+  src: url("../fonts/FuturaRegular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* @font-face {
+  font-family: "Futura-Demi";
+  src: url("../fonts/Futura-DemBld.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; 
+}*/
+@font-face {
+  font-family: "DalaMoa";
+  src: url("../fonts/DalaMoa.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
