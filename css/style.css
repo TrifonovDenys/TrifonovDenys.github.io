@@ -5,9 +5,15 @@
           box-sizing: border-box;
 }
 
+body {
+  background-color: #f6f6f6;
+}
+
 .header {
   background: url(../img/header/header.png) center no-repeat;
   background-size: cover;
+  max-width: 1920px;
+  margin: 0 auto;
   height: 1218px;
   opacity: 0.94;
 }
@@ -17,7 +23,7 @@
   font-family: 'MyriadPro';
   font-size: 20px;
   line-height: 31px;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 0.02em;
   color: #fbfafa;
   margin: 877px 0px 0px 30px;
@@ -25,7 +31,7 @@
 
 .header_text::before {
   content: '';
-  display: none;
+  display: block;
   width: 42px;
   height: 1px;
   position: absolute;
@@ -33,94 +39,110 @@
   background-color: #ffffff;
 }
 
-.line {
-  width: 105px;
-  height: 156px;
-  margin-top: 80%;
-}
-
 .block {
-  position: relative;
-  margin-top: -114px;
-  z-index: -1;
+  padding-top: 30px;
+  padding-bottom: 200px;
 }
 
-.block1 {
+.block_title {
+  display: inline-block;
+  font-family: 'DalaFloda' sans-serif;
+  font-size: 58px;
+  line-height: 59px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.block_title::before {
+  content: '';
+  display: block;
+  width: 180px;
+  height: 1px;
+  top: 35%;
+  left: -15%;
   position: absolute;
-  z-index: 2;
+  -webkit-transform: rotate(-60deg);
+          transform: rotate(-60deg);
+  background-color: #000000;
 }
 
 .block_text {
-  max-width: 433px;
+  font-family: 'Futura-Bk', sans-serif;
+  font-size: 20px;
+  line-height: 33px;
+  font-weight: 550;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+.block_img {
+  border: 20px solid #f1f1e9;
 }
 
 .content1 {
-  height: 100%;
   width: 100%;
-}
-
-.text-first {
-  max-width: 544px;
-  margin-left: 10%;
-  padding-top: 10%;
-  font-family: "Futura-Bk";
-  font-size: 21px;
-  line-height: 33px;
-  font-weight: 550;
-  letter-spacing: 0.02em;
-  color: #000000;
-}
-
-.text-second {
-  margin-top: -17%;
-}
-
-.text-third {
-  margin-top: 5%;
-}
-
-.block_text {
-  font-family: 'DalaMoa';
-  font-size: 21px;
-  line-height: 33px;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  color: #000000;
-}
-
-.rblock_title {
-  font-family: 'DalaFloda';
-  font-size: 21px;
-  line-height: 33px;
-  font-weight: 550;
-  letter-spacing: 0.02em;
-  color: #000000;
+  height: 100%;
+  margin-left: -5%;
+  -webkit-transform: rotate(1deg);
+          transform: rotate(1deg);
 }
 
 .content2 {
-  height: 100%;
   width: 100%;
-  padding-top: 43%;
+  height: 100%;
+  -webkit-transform: rotate(-1deg);
+          transform: rotate(-1deg);
 }
 
 .content3 {
-  position: relative;
-  height: 100%;
   width: 100%;
-  padding-right: 18.2%;
-  margin-top: -5%;
-  z-index: -1;
+  -webkit-transform: rotate(-2deg);
+          transform: rotate(-2deg);
 }
 
-.text-fourth {
-  padding-top: 15%;
-  margin-left: -45%;
+.row_title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'DalaFloda', sans-serif;
+  font-size: 21px;
+  line-height: 33px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.row_text {
+  font-family: 'DalaMoa', sans-serif;
+  font-size: 21px;
+  line-height: 33px;
+  font-weight: 200;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.block_it {
+  margin-bottom: 40px;
+}
+
+.block_it1 {
+  padding-bottom: 50px;
+  margin-left: 5%;
+}
+
+.block_it2 {
+  padding-top: 250px;
+}
+
+.block_it3 {
+  margin-top: -6%;
 }
 
 .vidcont {
   padding-top: 274px;
   background: url(../img/vid/vidcontent.png) center no-repeat;
   background-size: cover;
+  max-width: 1920px;
+  margin: 0 auto;
   height: 773px;
   text-align: center;
 }
@@ -137,48 +159,54 @@
 }
 
 .slider {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 118px;
+  padding-bottom: 111px;
   text-align: center;
+  background-color: #f6f6f6;
 }
 
 .slider_title {
-  font-family: 'DalaFloda';
+  font-family: 'DalaFloda-Med', sans-serif;
   font-size: 49px;
   overflow-y: none;
   line-height: 58px;
   font-weight: 500;
   letter-spacing: 0.02em;
   color: #000000;
-  margin-bottom: 50px;
+  margin-bottom: 42px;
 }
 
 .slider_text {
-  font-family: 'Futura-Bk';
+  font-family: 'Futura-Bk', sans-serif;
   font-size: 21px;
   line-height: 33px;
   font-weight: 400;
   letter-spacing: 0.02em;
   color: #807f7b;
-  margin-bottom: 60px;
+  margin-bottom: 88px;
 }
 
 .slider_button {
   padding: 16px 16px;
   outline: none;
-  width: 351px;
+  max-width: 351px;
   height: 62px;
   text-transform: uppercase;
   background-color: transparent;
   border: 1px solid black;
-  margin-top: 60px;
-  font-family: 'Futura-Demi';
+  margin-top: 72px;
+  font-family: 'Futura-Demi', sans-serif;
   font-size: 14.9px;
   line-height: 1.2;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.15em;
   color: #000000;
+}
+
+.contain {
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 .slider_block {
@@ -212,17 +240,17 @@
 }
 
 .ring_title {
-  font-family: 'Futura';
+  font-family: 'Futura', sans-serif;
   font-size: 19.3px;
   line-height: 56px;
   font-weight: 500;
   letter-spacing: 0.1em;
   color: #000000;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 
 .shopnow {
-  font-family: 'Futura-Demi';
+  font-family: 'Futura-Demi', sans-serif;
   font-size: 14.9px;
   line-height: 1.2;
   font-weight: 400;
@@ -233,7 +261,7 @@
 
 .after_img {
   display: inline-block;
-  margin: 10px auto auto 10px;
+  margin: 13px auto auto 10px;
   margin-left: auto;
 }
 
