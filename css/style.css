@@ -40,13 +40,13 @@ body {
 }
 
 .block {
-  padding-top: 30px;
+  padding-top: 20px;
   padding-bottom: 200px;
 }
 
 .block_title {
   display: inline-block;
-  font-family: 'DalaFloda' sans-serif;
+  font-family: 'DalaFloda';
   font-size: 58px;
   line-height: 59px;
   font-weight: 500;
@@ -67,7 +67,7 @@ body {
 }
 
 .block_text {
-  font-family: 'Futura-Bk', sans-serif;
+  font-family: 'Futura-Bk';
   font-size: 20px;
   line-height: 33px;
   font-weight: 550;
@@ -112,7 +112,7 @@ body {
 }
 
 .row_text {
-  font-family: 'DalaMoa', sans-serif;
+  font-family: 'DalaMoa' sans-serif;
   font-size: 21px;
   line-height: 33px;
   font-weight: 200;
@@ -187,10 +187,10 @@ body {
 }
 
 .slider_button {
-  padding: 16px 16px;
+  display: inline-block;
+  padding: 17px 27px;
   outline: none;
   max-width: 351px;
-  height: 62px;
   text-transform: uppercase;
   background-color: transparent;
   border: 1px solid black;
