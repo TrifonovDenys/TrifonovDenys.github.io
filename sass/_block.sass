@@ -1,58 +1,69 @@
 .block
-  position: relative
-  margin-top: -114px
-  z-index: -1
-.block1
-  position: absolute
-  z-index: 2
-.block_text
-  max-width: 433px
+  padding-top: 30px
+  padding-bottom: 200px
+  &_title
+    display: inline-block
+    font-family: 'DalaFloda'
+    font-size: 58px
+    line-height: 59px
+    font-weight: 500
+    color: #000000
+    &::before
+      content: ''
+      display: block
+      width: 180px
+      height: 1px
+      top: 35%
+      left: -15%
+      position: absolute
+      transform: rotate(-60deg)
+      background-color: #000000
+  &_text
+    font-family: 'Futura-Bk'
+    font-size: 20px
+    line-height: 33px
+    font-weight: 550
+    letter-spacing: 0.01em
+    color: #000000
+  &_img
+    border: 20px solid #f1f1e9
 .content1
-  height: 100%
   width: 100%
- 
-.text-first
-  max-width: 544px
-  margin-left: 10%
-  padding-top: 10%
-  font-family: "Futura-Bk"
-  font-size: 21px
-  line-height: 33px
-  font-weight: 550
-  letter-spacing: 0.02em
-  color: #000000
-.text-second
-  margin-top: -17%
-
-.text-third
-  margin-top: 5%
-.text-fourth
-
-.block_text
-  font-family: 'DalaMoa'
-  font-size: 21px
-  line-height: 33px
-  font-weight: 600
-  letter-spacing: 0.02em
-  color: #000000
-.rblock_title  
+  height: 100%
+  margin-left: -5%
+  transform: rotate(1deg)
+.content2
+  width: 100%
+  height: 100%
+  transform: rotate(-1deg)
+.content3
+  width: 100%
+  // height: 90%
+  transform: rotate(-2deg)
+.row_title
+  margin-top: 20px
+  margin-bottom: 20px
   font-family: 'DalaFloda'
   font-size: 21px
   line-height: 33px
-  font-weight: 550
+  font-weight: 500
   letter-spacing: 0.02em
   color: #000000
-.content2
-  height: 100%
-  width: 100%
-  padding-top: 43%
-.content3
-  position: relative
-  height: 100%
-  width: 100%
-  padding-right: 18.2%
-  margin-top: -5%
-  z-index: -1
-.text-fourth
-  padding-top: 15%
-  margin-left: -45%
+.row_text
+  // font-family: 'DalaMoa'
+  font-size: 21px
+  line-height: 33px
+  font-weight: 200
+  letter-spacing: 0.02em
+  color: #000000
+.block_it
+  margin-bottom: 40px
+.block_it1
+  // border: 1px solid red
+  padding-bottom: 50px
+.block_it2
+  // border: 1px solid red
+  padding-top: 250px
+.block_it3
+  // border: 1px solid red
+  margin-top: -6%
